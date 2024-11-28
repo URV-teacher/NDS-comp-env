@@ -12,5 +12,4 @@ FROM dockurr/windows
 # Set the application profile in order to change the config of DB location
 #ENV spring_profiles_active=container
 
-ENTRYPOINT ["java", \
-    "-jar", "eChempad.war"]
+#ENTRYPOINT ["java", "-jar", "eChempad.war"]
